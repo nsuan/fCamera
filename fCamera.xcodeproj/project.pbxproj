@@ -14,12 +14,14 @@
 		6110749C144FB395005AE1FF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6110749B144FB395005AE1FF /* main.m */; };
 		611074A0144FB395005AE1FF /* fcameraAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6110749F144FB395005AE1FF /* fcameraAppDelegate.m */; };
 		611074A3144FB395005AE1FF /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 611074A1144FB395005AE1FF /* MainStoryboard.storyboard */; };
-		611074A6144FB395005AE1FF /* fcameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 611074A5144FB395005AE1FF /* fcameraViewController.m */; };
 		611074AE144FB395005AE1FF /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611074AD144FB395005AE1FF /* SenTestingKit.framework */; };
 		611074AF144FB395005AE1FF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6110748F144FB395005AE1FF /* UIKit.framework */; };
 		611074B0144FB395005AE1FF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 61107491144FB395005AE1FF /* Foundation.framework */; };
 		611074B8144FB395005AE1FF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 611074B6144FB395005AE1FF /* InfoPlist.strings */; };
 		611074BB144FB395005AE1FF /* fCameraTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 611074BA144FB395005AE1FF /* fCameraTests.m */; };
+		611074C5144FB6EB005AE1FF /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 611074C4144FB6EB005AE1FF /* MobileCoreServices.framework */; };
+		617F438614501B87008B9743 /* Base64.m in Sources */ = {isa = PBXBuildFile; fileRef = 617F438514501B87008B9743 /* Base64.m */; };
+		61AE6DFF14900BFE00E94767 /* fcameraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 61AE6E0114900BFE00E94767 /* fcameraViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,21 +39,24 @@
 		6110748F144FB395005AE1FF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		61107491144FB395005AE1FF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		61107493144FB395005AE1FF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		61107497144FB395005AE1FF /* fCamera-Info.plist */ = {isa = PBXFileReference; path = "fCamera-Info.plist"; sourceTree = "<group>"; };
+		61107497144FB395005AE1FF /* fCamera-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fCamera-Info.plist"; sourceTree = "<group>"; };
 		61107499144FB395005AE1FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		6110749B144FB395005AE1FF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		6110749D144FB395005AE1FF /* fCamera-Prefix.pch */ = {isa = PBXFileReference; path = "fCamera-Prefix.pch"; sourceTree = "<group>"; };
-		6110749E144FB395005AE1FF /* fcameraAppDelegate.h */ = {isa = PBXFileReference; path = fcameraAppDelegate.h; sourceTree = "<group>"; };
+		6110749D144FB395005AE1FF /* fCamera-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "fCamera-Prefix.pch"; sourceTree = "<group>"; };
+		6110749E144FB395005AE1FF /* fcameraAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fcameraAppDelegate.h; sourceTree = "<group>"; };
 		6110749F144FB395005AE1FF /* fcameraAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fcameraAppDelegate.m; sourceTree = "<group>"; };
 		611074A2144FB395005AE1FF /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		611074A4144FB395005AE1FF /* fcameraViewController.h */ = {isa = PBXFileReference; path = fcameraViewController.h; sourceTree = "<group>"; };
-		611074A5144FB395005AE1FF /* fcameraViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fcameraViewController.m; sourceTree = "<group>"; };
+		611074A4144FB395005AE1FF /* fcameraViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fcameraViewController.h; sourceTree = "<group>"; };
 		611074AC144FB395005AE1FF /* fCameraTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = fCameraTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		611074AD144FB395005AE1FF /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
-		611074B5144FB395005AE1FF /* fCameraTests-Info.plist */ = {isa = PBXFileReference; path = "fCameraTests-Info.plist"; sourceTree = "<group>"; };
+		611074B5144FB395005AE1FF /* fCameraTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "fCameraTests-Info.plist"; sourceTree = "<group>"; };
 		611074B7144FB395005AE1FF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		611074B9144FB395005AE1FF /* fCameraTests.h */ = {isa = PBXFileReference; path = fCameraTests.h; sourceTree = "<group>"; };
+		611074B9144FB395005AE1FF /* fCameraTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = fCameraTests.h; sourceTree = "<group>"; };
 		611074BA144FB395005AE1FF /* fCameraTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = fCameraTests.m; sourceTree = "<group>"; };
+		611074C4144FB6EB005AE1FF /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		617F438414501B87008B9743 /* Base64.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Base64.h; sourceTree = "<group>"; };
+		617F438514501B87008B9743 /* Base64.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Base64.m; sourceTree = "<group>"; };
+		61AE6E0014900BFE00E94767 /* en */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = en; path = en.lproj/fcameraViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,6 +64,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				611074C5144FB6EB005AE1FF /* MobileCoreServices.framework in Frameworks */,
 				61107490144FB395005AE1FF /* UIKit.framework in Frameworks */,
 				61107492144FB395005AE1FF /* Foundation.framework in Frameworks */,
 				61107494144FB395005AE1FF /* CoreGraphics.framework in Frameworks */,
@@ -81,6 +87,7 @@
 		61107480144FB395005AE1FF = {
 			isa = PBXGroup;
 			children = (
+				611074C4144FB6EB005AE1FF /* MobileCoreServices.framework */,
 				61107495144FB395005AE1FF /* fCamera */,
 				611074B3144FB395005AE1FF /* fCameraTests */,
 				6110748E144FB395005AE1FF /* Frameworks */,
@@ -115,7 +122,9 @@
 				6110749F144FB395005AE1FF /* fcameraAppDelegate.m */,
 				611074A1144FB395005AE1FF /* MainStoryboard.storyboard */,
 				611074A4144FB395005AE1FF /* fcameraViewController.h */,
-				611074A5144FB395005AE1FF /* fcameraViewController.m */,
+				61AE6E0114900BFE00E94767 /* fcameraViewController.m */,
+				617F438414501B87008B9743 /* Base64.h */,
+				617F438514501B87008B9743 /* Base64.m */,
 				61107496144FB395005AE1FF /* Supporting Files */,
 			);
 			path = fCamera;
@@ -259,7 +268,8 @@
 			files = (
 				6110749C144FB395005AE1FF /* main.m in Sources */,
 				611074A0144FB395005AE1FF /* fcameraAppDelegate.m in Sources */,
-				611074A6144FB395005AE1FF /* fcameraViewController.m in Sources */,
+				61AE6DFF14900BFE00E94767 /* fcameraViewController.m in Sources */,
+				617F438614501B87008B9743 /* Base64.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -304,6 +314,14 @@
 				611074B7144FB395005AE1FF /* en */,
 			);
 			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		61AE6E0114900BFE00E94767 /* fcameraViewController.m */ = {
+			isa = PBXVariantGroup;
+			children = (
+				61AE6E0014900BFE00E94767 /* en */,
+			);
+			name = fcameraViewController.m;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -429,6 +447,7 @@
 				611074C0144FB395005AE1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		611074C1144FB395005AE1FF /* Build configuration list for PBXNativeTarget "fCameraTests" */ = {
 			isa = XCConfigurationList;
@@ -437,6 +456,7 @@
 				611074C3144FB395005AE1FF /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
