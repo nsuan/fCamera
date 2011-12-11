@@ -8,6 +8,22 @@
 
 #import <UIKit/UIKit.h>
 
-@interface fcameraViewController : UIViewController
+#import <MobileCoreServices/UTCoreTypes.h>
 
+@interface fcameraViewController : UIViewController
+<UIImagePickerControllerDelegate, UINavigationControllerDelegate>
+{
+    IBOutlet UIWebView *imageView;
+    BOOL newMedia;
+}
+@property (nonatomic, retain) UIWebView *imageView;
+//@property (nonatomic, retain) IBOutlet UIWebView *imageView;
+
+- (IBAction)useCamera;
+- (IBAction)useCameraRoll;
 @end
+
+
+
+
+    
