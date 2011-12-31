@@ -15,12 +15,15 @@
 {
     IBOutlet UIWebView *imageView;
     BOOL newMedia;
+    NSData *imageData;
 }
 @property (nonatomic, retain) UIWebView *imageView;
 //@property (nonatomic, retain) IBOutlet UIWebView *imageView;
 
 - (IBAction)useCamera;
 - (IBAction)useCameraRoll;
+- (IBAction)uploadImage;
+
 @end
 
 
